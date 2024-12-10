@@ -1,0 +1,51 @@
+[
+	{
+		"question": "What is Pylauncher?",
+		"desired answer": "a Python-based parametric job launcher, a utility for distributing and executing many small jobs in parallel"
+	},
+
+	{
+		"question": "How do you load Pylauncher?",
+		"desired answer": "module load pylauncher"
+	},
+
+	{
+		"question": "What command installs Pylauncher?",
+		"desired answer": "module load pylauncher"
+	},
+
+	{
+		"question": "What does Pylauncher do in an idev session?",
+		"desired answer": "creates a working directory with a name based on the SLURM job number"
+	},
+
+	{
+		"question": "Where is Pylauncher available on TACC?",
+		"desired answer": "on all TACC systems via the [Lmod modules system][TACCLMOD]"
+        },
+
+	{
+		"question": "What is the procees to invoke Pylauncher?",
+		"desired answer": "#SBATCH -N 5 # number of nodes you want to use"
+	},
+
+	{
+		"question": "How many nodes will I need to use?",
+		"desired answer": "depends on how much work you have"
+	},
+
+	{
+		"question": "What are the names of the environment variables?",
+		"desired answer": "TACC_PYLAUNCHER_DIR and PYTHONPATH"
+	},
+
+	{
+		"question": "How can I give each commandline more than one core for a multi-threaded program?",
+		"desired answer": "launcher.ClassicLauncher(commandlines,cores4)"
+	},
+
+	{
+		"question": "How much time does it take for the system to output a tick message",
+		"desired answer": "every half second"
+	}
+]

@@ -1,0 +1,51 @@
+[
+	{
+		"question": "What can TACC users use MATLAB for?",
+		"desired answer": "only for non-commercial, academic purposes"
+	},
+
+	{
+		"question": "How do I load MATLAB?",
+		"desired answer": "module load matlab"
+	},
+
+	{
+		"question": "Should I launch MATLAB jobs on login nodes?",
+		"desired answer": "Do NOT launch MATLAB on the login nodes"
+	},
+
+	{
+		"question": "Where can I submit my MATLAB jobs?",
+		"desired answer": "on the TACC resources, e.g. Frontera, Stampede3, or Lonestar6"
+	},
+
+	{
+		"question": "Why can I not use MATLAB on login nodes?",
+		"desired answer": "This may fail and, more importantly, it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+        },
+
+	{
+		"question": "How do I invoke MATLAB?",
+		"desired answer": "matlab"
+	},
+
+	{
+		"question": "What is the command to invoke MATLAB?",
+		"desired answer": "matlab"
+	},
+
+	{
+		"question": "What is the standard way to submit a Slurm job?",
+		"desired answer": "sbatch myjobscript"
+	},
+
+	{
+		"question": "How do I submit a Slurm job?",
+		"desired answer": "sbatch myjobscript"
+	},
+
+	{
+		"question": "How is using login nodes for MATLAB jobs system abuse?",
+		"desired answer": "it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+	}
+]
