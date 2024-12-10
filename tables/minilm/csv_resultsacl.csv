@@ -1,0 +1,11 @@
+Question,Answer Given,Score,Actual Answer
+What can TACC users use MATLAB for?,set permissions for all files in a given directory tree,0.0004614545323420316,"only for non-commercial, academic purposes"
+How do I load MATLAB?,copy ACLs from one file to another,1.450384752388345e-05,module load matlab
+Should I launch MATLAB jobs on login nodes?,you must remove access for the whole group,0.000346493034157902,Do NOT launch MATLAB on the login nodes
+Where can I submit my MATLAB jobs?,man pages,1.2514438822108787e-05,"on the TACC resources, e.g. Frontera, Stampede3, or Lonestar6"
+Why can I not use MATLAB on login nodes?,cannot be used to remove permissions granted through the regular UNIX permissions commands,4.7147324949037284e-05,"This may fail and, more importantly, it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+How do I invoke MATLAB?,setfacl command,1.852562854764983e-05,matlab
+What is the command to invoke MATLAB?,setfacl command,0.0007360380259342492,matlab
+What is the standard way to submit a Slurm job?,setfacl command,0.0025426787324249744,sbatch myjobscript
+How do I submit a Slurm job?,setfacl command,5.3012885473435745e-05,sbatch myjobscript
+How is using login nodes for MATLAB jobs system abuse?,you must remove access for the whole group,0.00021885274327360094,"it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"

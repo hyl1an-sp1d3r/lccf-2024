@@ -1,0 +1,15 @@
+Question,Answer Given,Score,Actual Answer
+What is Pylauncher?,"GPU Launcher
+
+PyLauncher can handle programs that need a GPU",0.273196816444397,"a Python-based parametric job launcher, a utility for distributing and executing many small jobs in parallel"
+How do you load Pylauncher?,"cmd-line
+$ module",0.2663179636001587,module load pylauncher
+What command installs Pylauncher?,ClassicLauncher,0.008498751558363438,module load pylauncher
+What does Pylauncher do in an idev session?,creates a working directory with a name based on the SLURM job number,0.7708964347839355,creates a working directory with a name based on the SLURM job number
+Where is Pylauncher available on TACC?,github.com,0.4758722484111786,on all TACC systems via the [Lmod modules system][TACCLMOD]
+What is the procees to invoke Pylauncher?,from a Slurm job script,0.03573859855532646,#SBATCH -N 5 # number of nodes you want to use
+How many nodes will I need to use?,all the cores,0.005778369028121233,depends on how much work you have
+What are the names of the environment variables?,PYTHONPATH,0.4286635220050812,TACC_PYLAUNCHER_DIR and PYTHONPATH
+How can I give each commandline more than one core for a multi-threaded program?,"job-script
+launcher",0.9021036028862,"launcher.ClassicLauncher(commandlines,cores4)"
+How much time does it take for the system to output a tick message,every half second,0.678858757019043,every half second

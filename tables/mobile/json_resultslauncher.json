@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What is Launcher?",
+        "Answer Given": "Large-Scale HTC ON HPC Systems",
+        "Score": 0.5452021360397339,
+        "Actual Answer": "a framework for running large collections of serial multithreaded applications known as High Throughput Computing (HTC)"
+    },
+    {
+        "Question": "How can users submit Launcher jobs?",
+        "Answer Given": "by creating a SLURM job script",
+        "Score": 0.5707496404647827,
+        "Actual Answer": "by creating a SLURM job script"
+    },
+    {
+        "Question": "How many tasks can be ran in a job?",
+        "Answer Given": "16",
+        "Score": 0.4146641492843628,
+        "Actual Answer": "16 - 60"
+    },
+    {
+        "Question": "What are two useful parameters?",
+        "Answer Given": "$LAUNCHER_JID and $LAUNCHER_TSK_ID",
+        "Score": 0.9085235595703125,
+        "Actual Answer": "$LAUNCHER_JID and $LAUNCHER_TSK_ID"
+    },
+    {
+        "Question": "What can I not use Launcher for?",
+        "Answer Given": "run Matlab, ANSYS, or Mathematica jobs in parallel",
+        "Score": 0.011603668332099915,
+        "Actual Answer": "Matlab, ANSYS, or Mathematica jobs in parallel"
+    },
+    {
+        "Question": "What is $LAUNCHER_JID?",
+        "Answer Given": "the rank of the jobs listed in the job file",
+        "Score": 0.7313514947891235,
+        "Actual Answer": "the rank of the jobs listed in the job file"
+    },
+    {
+        "Question": "What does Launcher not support?",
+        "Answer Given": "MPI jobs",
+        "Score": 0.8647899627685547,
+        "Actual Answer": "MPI jobs"
+    },
+    {
+        "Question": "What is Launcher not used for?",
+        "Answer Given": "run Matlab, ANSYS, or Mathematica jobs in parallel",
+        "Score": 0.02395595610141754,
+        "Actual Answer": "Matlab, ANSYS, or Mathematica jobs in parallel"
+    },
+    {
+        "Question": "What is the name of the newly developed tool based on Launcher?",
+        "Answer Given": "SBATCH -p",
+        "Score": 0.6889331936836243,
+        "Actual Answer": "Launcher-GPU"
+    },
+    {
+        "Question": "What does $LAUNCHER_TSK_ID?",
+        "Answer Given": "echo Hello, World from job",
+        "Score": 0.5229557752609253,
+        "Actual Answer": "the rank of the tasks (-n) running simultaneously"
+    }
+]

@@ -1,0 +1,11 @@
+Question,Answer Given,Score,Actual Answer
+How does idev work?,The idev command submits a batch job,0.06679823994636536,submits a batch job that creates a copy of the batch environment
+What does idev do?,creates an interactive development environment from the user's login window,0.08500891923904419,creates and interactive development environment from the user's login window
+What is the terminal command for idev?,SSH,0.3887535631656647,idev
+What is the command for idev?,SSH,0.4205184876918793,idev
+How much time will the system report the job status?,every 4 seconds,0.9484819769859314,every 4 seconds
+What happens on the first time launching idev?,idev will prompt you for the project name,0.12600040435791016,idev will prompt you for the project name and then save your selection as the default interactive account
+How do you start an idev session?,Stampede3 Skylake development node,0.03723021224141121,idev
+How do launch an idev session?,ibrun myapp,0.2559795677661896,idev
+Which command launces an idev session?,SSH,0.39156195521354675,idev
+What does -m do with idev,minutes            sets time in minutes,0.21575011312961578,sets time in minutes

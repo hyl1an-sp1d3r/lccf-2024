@@ -1,0 +1,11 @@
+Question,Answer Given,Score,Actual Answer
+How does idev work?,report every 4 seconds the progress of accessing the nodes through the batch system,0.23204801976680756,submits a batch job that creates a copy of the batch environment
+What does idev do?,Interactive DEVelopment,0.3736884295940399,creates and interactive development environment from the user's login window
+What is the terminal command for idev?,login,0.09084968268871307,idev
+What is the command for idev?,submits a batch job,0.23093484342098236,idev
+How much time will the system report the job status?,every 4 seconds,0.4286878705024719,every 4 seconds
+What happens on the first time launching idev?,you have multiple projects/allocations,0.2557394802570343,idev will prompt you for the project name and then save your selection as the default interactive account
+How do you start an idev session?,The idev command,0.0114226583391428,idev
+How do launch an idev session?,idev command,0.002667868509888649,idev
+Which command launces an idev session?,ibrun,0.023194681853055954,idev
+What does -m do with idev,minutes            sets time in minutes,0.19136004149913788,sets time in minutes
