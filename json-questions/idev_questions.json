@@ -1,0 +1,51 @@
+[
+	{
+		"question": "How does idev work?",
+		"desired answer": "submits a batch job that creates a copy of the batch environment"
+	},
+
+	{
+		"question": "What does idev do?",
+		"desired answer": "creates and interactive development environment from the user's login window"
+	},
+
+	{
+		"question": "What is the terminal command for idev?",
+		"desired answer": "idev"
+	},
+
+	{
+		"question": "What is the command for idev?",
+		"desired answer": "idev"
+	},
+
+	{
+		"question": "How much time will the system report the job status?",
+		"desired answer": "every 4 seconds"
+        },
+
+	{
+		"question": "What happens on the first time launching idev?",
+		"desired answer": "idev will prompt you for the project name and then save your selection as the default interactive account"
+	},
+
+	{
+		"question": "How do you start an idev session?",
+		"desired answer": "idev"
+	},
+
+	{
+		"question": "How do launch an idev session?",
+		"desired answer": "idev"
+	},
+
+	{
+		"question": "Which command launces an idev session?",
+		"desired answer": "idev"
+	},
+
+	{
+		"question": "What does -m do with idev",
+		"desired answer": "sets time in minutes"
+	}
+]
