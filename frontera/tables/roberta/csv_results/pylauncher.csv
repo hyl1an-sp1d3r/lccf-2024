@@ -1,0 +1,20 @@
+Question,Answer Given,Score,Actual Answer
+What is Pylauncher?,ClassicLauncher,0.4304468631744385,"a Python-based parametric job launcher, a utility for distributing and executing many small jobs in parallel"
+How do you load Pylauncher?,"
+cmd-line
+c123-456",0.09412351250648499,module load pylauncher
+What command installs Pylauncher?,"
+cmd-line
+c123-456",0.0912681445479393,module load pylauncher
+What does Pylauncher do in an idev session?,"
+c123-456",0.10396739095449448,creates a working directory with a name based on the SLURM job number
+Where is Pylauncher available on TACC?,queuestate,0.09945672750473022,on all TACC systems via the [Lmod modules system][TACCLMOD]
+What is the procees to invoke Pylauncher?,"
+c123-456",0.13404370844364166,#SBATCH -N 5 # number of nodes you want to use
+How many nodes will I need to use?,"
+c123-456",0.11581506580114365,depends on how much work you have
+What are the names of the environment variables?,"
+c123-456",0.12579429149627686,TACC_PYLAUNCHER_DIR and PYTHONPATH
+How can I give each commandline more than one core for a multi-threaded program?,"
+c123-456",0.062145743519067764,"launcher.ClassicLauncher(commandlines,cores4)"
+How much time does it take for the system to output a tick message,every half second,0.5068135857582092,every half second

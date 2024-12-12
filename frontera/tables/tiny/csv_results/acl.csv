@@ -1,0 +1,11 @@
+Question,Answer Given,Score,Actual Answer
+How do I view specific files/directories?,Please consult the appropriate user guide,0.16575948894023895,getfacl command
+What does the command setfacl do?,create or change ACLs,0.17868313193321228,"creates or change ACLs, and to read the contents of an ACL"
+What do Access Control Lists do?,managing permissions within a file system,0.5971305966377258,managing permissions within a file system
+How do I use named files or pipes?,with the getfacl command,0.4003055989742279,getfacl command
+What does -x do in ACLs?,add execute permission for directories only,0.07594487816095352,remove permissions within a file system
+How do I set permissions to files/directories?,using the specification in myfile,0.3855660557746887,setfacl
+How do I manage ACLs?,setting and managing default ACLs,0.3714408874511719,setfacl and getfacl
+How can I manage ACLs?,setting and managing default ACLs,0.30733776092529297,setfacl and getfacl
+What does the wildcard (*) do?,set permissions for all files in a given directory tree,0.6099316477775574,generate ACL listings for all files which match a specific pattern
+Do all file systems feature ACLs?,not all file systems have this feature enabled,0.6608632206916809,not all file systems have this feature enabled

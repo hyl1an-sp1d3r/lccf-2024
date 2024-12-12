@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "How do I view specific files/directories?",
+        "Answer Given": "ACLs",
+        "Score": 0.0045549869537353516,
+        "Actual Answer": "getfacl command"
+    },
+    {
+        "Question": "What does the command setfacl do?",
+        "Answer Given": "create or change ACLs, and to read the contents of an ACL",
+        "Score": 0.18543006479740143,
+        "Actual Answer": "creates or change ACLs, and to read the contents of an ACL"
+    },
+    {
+        "Question": "What do Access Control Lists do?",
+        "Answer Given": "managing permissions within a file system",
+        "Score": 0.6200159788131714,
+        "Actual Answer": "managing permissions within a file system"
+    },
+    {
+        "Question": "How do I use named files or pipes?",
+        "Answer Given": "with the getfacl command",
+        "Score": 0.21330679953098297,
+        "Actual Answer": "getfacl command"
+    },
+    {
+        "Question": "What does -x do in ACLs?",
+        "Answer Given": "add execute permission for directories only",
+        "Score": 0.0344751700758934,
+        "Actual Answer": "remove permissions within a file system"
+    },
+    {
+        "Question": "How do I set permissions to files/directories?",
+        "Answer Given": "ACLs",
+        "Score": 0.0077135516330599785,
+        "Actual Answer": "setfacl"
+    },
+    {
+        "Question": "How do I manage ACLs?",
+        "Answer Given": "setting",
+        "Score": 0.5190714001655579,
+        "Actual Answer": "setfacl and getfacl"
+    },
+    {
+        "Question": "How can I manage ACLs?",
+        "Answer Given": "setting",
+        "Score": 0.4159694314002991,
+        "Actual Answer": "setfacl and getfacl"
+    },
+    {
+        "Question": "What does the wildcard (*) do?",
+        "Answer Given": "to generate ACL listings for all files which match a specific pattern",
+        "Score": 0.3439178764820099,
+        "Actual Answer": "generate ACL listings for all files which match a specific pattern"
+    },
+    {
+        "Question": "Do all file systems feature ACLs?",
+        "Answer Given": "not all file systems have this feature enabled",
+        "Score": 0.3501591980457306,
+        "Actual Answer": "not all file systems have this feature enabled"
+    }
+]

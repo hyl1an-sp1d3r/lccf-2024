@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "How does idev work?",
+        "Answer Given": "How it works { works }",
+        "Score": 0.13670557737350464,
+        "Actual Answer": "submits a batch job that creates a copy of the batch environment"
+    },
+    {
+        "Question": "What does idev do?",
+        "Answer Given": "creates an interactive development environment from the user's login window",
+        "Score": 0.34651827812194824,
+        "Actual Answer": "creates and interactive development environment from the user's login window"
+    },
+    {
+        "Question": "What is the terminal command for idev?",
+        "Answer Given": "ibrun",
+        "Score": 0.0244453102350235,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What is the command for idev?",
+        "Answer Given": "exit",
+        "Score": 0.22828339040279388,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How much time will the system report the job status?",
+        "Answer Given": "every 4 seconds",
+        "Score": 0.6628870964050293,
+        "Actual Answer": "every 4 seconds"
+    },
+    {
+        "Question": "What happens on the first time launching idev?",
+        "Answer Given": "you have multiple projects/allocations",
+        "Score": 0.4542030096054077,
+        "Actual Answer": "idev will prompt you for the project name and then save your selection as the default interactive account"
+    },
+    {
+        "Question": "How do you start an idev session?",
+        "Answer Given": "Stampede3 Skylake development node",
+        "Score": 0.27365756034851074,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How do launch an idev session?",
+        "Answer Given": "your first time",
+        "Score": 0.07993975281715393,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "Which command launces an idev session?",
+        "Answer Given": "ibrun",
+        "Score": 0.3261127173900604,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What does -m do with idev",
+        "Answer Given": "m   minutes            sets time in minutes",
+        "Score": 0.0501936599612236,
+        "Actual Answer": "sets time in minutes"
+    }
+]

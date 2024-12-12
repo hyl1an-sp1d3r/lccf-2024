@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "How does idev work?",
+        "Answer Given": "The idev command submits a batch job",
+        "Score": 0.15872347354888916,
+        "Actual Answer": "submits a batch job that creates a copy of the batch environment"
+    },
+    {
+        "Question": "What does idev do?",
+        "Answer Given": "Interactive Development",
+        "Score": 0.4274744391441345,
+        "Actual Answer": "creates and interactive development environment from the user's login window"
+    },
+    {
+        "Question": "What is the terminal command for idev?",
+        "Answer Given": "cmd-line\nlogin2$ idev -help",
+        "Score": 0.15650859475135803,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What is the command for idev?",
+        "Answer Given": "cmd-line\nlogin2$ idev -help",
+        "Score": 0.2001262605190277,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How much time will the system report the job status?",
+        "Answer Given": "every 4 seconds",
+        "Score": 0.7769453525543213,
+        "Actual Answer": "every 4 seconds"
+    },
+    {
+        "Question": "What happens on the first time launching idev?",
+        "Answer Given": "idev will prompt you for the project name",
+        "Score": 0.08797644078731537,
+        "Actual Answer": "idev will prompt you for the project name and then save your selection as the default interactive account"
+    },
+    {
+        "Question": "How do you start an idev session?",
+        "Answer Given": "The idev command submits a batch job",
+        "Score": 0.03320800140500069,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How do launch an idev session?",
+        "Answer Given": "with the ibrun command",
+        "Score": 0.2977469563484192,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "Which command launces an idev session?",
+        "Answer Given": "ibrun",
+        "Score": 0.03961329162120819,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What does -m do with idev",
+        "Answer Given": "execute idev -help to view an extensive list of options",
+        "Score": 0.1926281452178955,
+        "Actual Answer": "sets time in minutes"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "How does idev work?",
+        "Answer Given": "re-creates the batch environment",
+        "Score": 0.01473579928278923,
+        "Actual Answer": "submits a batch job that creates a copy of the batch environment"
+    },
+    {
+        "Question": "What does idev do?",
+        "Answer Given": "creates an interactive development environment from the user's login window",
+        "Score": 0.05721023678779602,
+        "Actual Answer": "creates and interactive development environment from the user's login window"
+    },
+    {
+        "Question": "What is the terminal command for idev?",
+        "Answer Given": "exit or ctrl-D",
+        "Score": 0.024491412565112114,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What is the command for idev?",
+        "Answer Given": "ibrun",
+        "Score": 0.06595363467931747,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How much time will the system report the job status?",
+        "Answer Given": "every 4 seconds",
+        "Score": 0.3867607116699219,
+        "Actual Answer": "every 4 seconds"
+    },
+    {
+        "Question": "What happens on the first time launching idev?",
+        "Answer Given": "idev will prompt you for the project name",
+        "Score": 0.04486257955431938,
+        "Actual Answer": "idev will prompt you for the project name and then save your selection as the default interactive account"
+    },
+    {
+        "Question": "How do you start an idev session?",
+        "Answer Given": "submits a batch job",
+        "Score": 0.013808594085276127,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "How do launch an idev session?",
+        "Answer Given": "idev will prompt you for the project name",
+        "Score": 0.008766373619437218,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "Which command launces an idev session?",
+        "Answer Given": "cmd-line\nlogin1$",
+        "Score": 0.038319822400808334,
+        "Actual Answer": "idev"
+    },
+    {
+        "Question": "What does -m do with idev",
+        "Answer Given": "re-creates the batch environment",
+        "Score": 0.07757239043712616,
+        "Actual Answer": "sets time in minutes"
+    }
+]

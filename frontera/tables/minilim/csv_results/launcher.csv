@@ -1,0 +1,11 @@
+Question,Answer Given,Score,Actual Answer
+What is Launcher?,request-based method,0.4888600707054138,a framework for running large collections of serial multithreaded applications known as High Throughput Computing (HTC)
+How can users submit Launcher jobs?,by creating a SLURM job script,0.4881548285484314,by creating a SLURM job script
+How many tasks can be ran in a job?,16,0.6988317966461182,16 - 60
+What are two useful parameters?,$LAUNCHER_JID and $LAUNCHER_TSK_ID,0.9313938021659851,$LAUNCHER_JID and $LAUNCHER_TSK_ID
+What can I not use Launcher for?,"run Matlab, ANSYS, or Mathematica jobs in parallel",0.061753496527671814,"Matlab, ANSYS, or Mathematica jobs in parallel"
+What is $LAUNCHER_JID?,the rank of the jobs listed in the job file,0.6596301198005676,the rank of the jobs listed in the job file
+What does Launcher not support?,MPI jobs,0.8911306262016296,MPI jobs
+What is Launcher not used for?,MPI jobs,0.34144020080566406,"Matlab, ANSYS, or Mathematica jobs in parallel"
+What is the name of the newly developed tool based on Launcher?,Launcher-GPU,0.791576623916626,Launcher-GPU
+What does $LAUNCHER_TSK_ID?,the rank of the tasks (-n) running simultaneously,0.6239957809448242,the rank of the tasks (-n) running simultaneously

@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What is Launcher?",
+        "Answer Given": "request-based method",
+        "Score": 0.4888600707054138,
+        "Actual Answer": "a framework for running large collections of serial multithreaded applications known as High Throughput Computing (HTC)"
+    },
+    {
+        "Question": "How can users submit Launcher jobs?",
+        "Answer Given": "by creating a SLURM job script",
+        "Score": 0.4881548285484314,
+        "Actual Answer": "by creating a SLURM job script"
+    },
+    {
+        "Question": "How many tasks can be ran in a job?",
+        "Answer Given": "16",
+        "Score": 0.6988317966461182,
+        "Actual Answer": "16 - 60"
+    },
+    {
+        "Question": "What are two useful parameters?",
+        "Answer Given": "$LAUNCHER_JID and $LAUNCHER_TSK_ID",
+        "Score": 0.9313938021659851,
+        "Actual Answer": "$LAUNCHER_JID and $LAUNCHER_TSK_ID"
+    },
+    {
+        "Question": "What can I not use Launcher for?",
+        "Answer Given": "run Matlab, ANSYS, or Mathematica jobs in parallel",
+        "Score": 0.061753496527671814,
+        "Actual Answer": "Matlab, ANSYS, or Mathematica jobs in parallel"
+    },
+    {
+        "Question": "What is $LAUNCHER_JID?",
+        "Answer Given": "the rank of the jobs listed in the job file",
+        "Score": 0.6596301198005676,
+        "Actual Answer": "the rank of the jobs listed in the job file"
+    },
+    {
+        "Question": "What does Launcher not support?",
+        "Answer Given": "MPI jobs",
+        "Score": 0.8911306262016296,
+        "Actual Answer": "MPI jobs"
+    },
+    {
+        "Question": "What is Launcher not used for?",
+        "Answer Given": "MPI jobs",
+        "Score": 0.34144020080566406,
+        "Actual Answer": "Matlab, ANSYS, or Mathematica jobs in parallel"
+    },
+    {
+        "Question": "What is the name of the newly developed tool based on Launcher?",
+        "Answer Given": "Launcher-GPU",
+        "Score": 0.791576623916626,
+        "Actual Answer": "Launcher-GPU"
+    },
+    {
+        "Question": "What does $LAUNCHER_TSK_ID?",
+        "Answer Given": "the rank of the tasks (-n) running simultaneously",
+        "Score": 0.6239957809448242,
+        "Actual Answer": "the rank of the tasks (-n) running simultaneously"
+    }
+]
