@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What can TACC users use MATLAB for?",
+        "Answer Given": "set permissions for all files in a given directory tree",
+        "Score": 0.0004614545323420316,
+        "Actual Answer": "only for non-commercial, academic purposes"
+    },
+    {
+        "Question": "How do I load MATLAB?",
+        "Answer Given": "copy ACLs from one file to another",
+        "Score": 1.450384752388345e-05,
+        "Actual Answer": "module load matlab"
+    },
+    {
+        "Question": "Should I launch MATLAB jobs on login nodes?",
+        "Answer Given": "you must remove access for the whole group",
+        "Score": 0.000346493034157902,
+        "Actual Answer": "Do NOT launch MATLAB on the login nodes"
+    },
+    {
+        "Question": "Where can I submit my MATLAB jobs?",
+        "Answer Given": "man pages",
+        "Score": 1.2514438822108787e-05,
+        "Actual Answer": "on the TACC resources, e.g. Frontera, Stampede3, or Lonestar6"
+    },
+    {
+        "Question": "Why can I not use MATLAB on login nodes?",
+        "Answer Given": "cannot be used to remove permissions granted through the regular UNIX permissions commands",
+        "Score": 4.7147324949037284e-05,
+        "Actual Answer": "This may fail and, more importantly, it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    },
+    {
+        "Question": "How do I invoke MATLAB?",
+        "Answer Given": "setfacl command",
+        "Score": 1.852562854764983e-05,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the command to invoke MATLAB?",
+        "Answer Given": "setfacl command",
+        "Score": 0.0007360380259342492,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the standard way to submit a Slurm job?",
+        "Answer Given": "setfacl command",
+        "Score": 0.0025426787324249744,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How do I submit a Slurm job?",
+        "Answer Given": "setfacl command",
+        "Score": 5.3012885473435745e-05,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How is using login nodes for MATLAB jobs system abuse?",
+        "Answer Given": "you must remove access for the whole group",
+        "Score": 0.00021885274327360094,
+        "Actual Answer": "it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    }
+]

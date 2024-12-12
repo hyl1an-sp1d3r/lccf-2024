@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What is Pylauncher?",
+        "Answer Given": "ClassicLauncher",
+        "Score": 0.4304477572441101,
+        "Actual Answer": "a Python-based parametric job launcher, a utility for distributing and executing many small jobs in parallel"
+    },
+    {
+        "Question": "How do you load Pylauncher?",
+        "Answer Given": "\ncmd-line\nc123-456",
+        "Score": 0.09412334114313126,
+        "Actual Answer": "module load pylauncher"
+    },
+    {
+        "Question": "What command installs Pylauncher?",
+        "Answer Given": "\ncmd-line\nc123-456",
+        "Score": 0.0912681445479393,
+        "Actual Answer": "module load pylauncher"
+    },
+    {
+        "Question": "What does Pylauncher do in an idev session?",
+        "Answer Given": "\nc123-456",
+        "Score": 0.10396693646907806,
+        "Actual Answer": "creates a working directory with a name based on the SLURM job number"
+    },
+    {
+        "Question": "Where is Pylauncher available on TACC?",
+        "Answer Given": "queuestate",
+        "Score": 0.09945707768201828,
+        "Actual Answer": "on all TACC systems via the [Lmod modules system][TACCLMOD]"
+    },
+    {
+        "Question": "What is the procees to invoke Pylauncher?",
+        "Answer Given": "\nc123-456",
+        "Score": 0.13404376804828644,
+        "Actual Answer": "#SBATCH -N 5 # number of nodes you want to use"
+    },
+    {
+        "Question": "How many nodes will I need to use?",
+        "Answer Given": "\nc123-456",
+        "Score": 0.11581465601921082,
+        "Actual Answer": "depends on how much work you have"
+    },
+    {
+        "Question": "What are the names of the environment variables?",
+        "Answer Given": "\nc123-456",
+        "Score": 0.12579450011253357,
+        "Actual Answer": "TACC_PYLAUNCHER_DIR and PYTHONPATH"
+    },
+    {
+        "Question": "How can I give each commandline more than one core for a multi-threaded program?",
+        "Answer Given": "\nc123-456",
+        "Score": 0.0621456503868103,
+        "Actual Answer": "launcher.ClassicLauncher(commandlines,cores4)"
+    },
+    {
+        "Question": "How much time does it take for the system to output a tick message",
+        "Answer Given": "every half second",
+        "Score": 0.5068115592002869,
+        "Actual Answer": "every half second"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What can TACC users use MATLAB for?",
+        "Answer Given": "to create or change ACLs",
+        "Score": 0.0030768418218940496,
+        "Actual Answer": "only for non-commercial, academic purposes"
+    },
+    {
+        "Question": "How do I load MATLAB?",
+        "Answer Given": "setting and managing default ACLs",
+        "Score": 2.4633911380078644e-05,
+        "Actual Answer": "module load matlab"
+    },
+    {
+        "Question": "Should I launch MATLAB jobs on login nodes?",
+        "Answer Given": "Explore the man pages for more details on all the available options",
+        "Score": 3.867333475682244e-07,
+        "Actual Answer": "Do NOT launch MATLAB on the login nodes"
+    },
+    {
+        "Question": "Where can I submit my MATLAB jobs?",
+        "Answer Given": "man pages",
+        "Score": 3.865168764605187e-06,
+        "Actual Answer": "on the TACC resources, e.g. Frontera, Stampede3, or Lonestar6"
+    },
+    {
+        "Question": "Why can I not use MATLAB on login nodes?",
+        "Answer Given": "to have access to a file",
+        "Score": 0.08661533892154694,
+        "Actual Answer": "This may fail and, more importantly, it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    },
+    {
+        "Question": "How do I invoke MATLAB?",
+        "Answer Given": "add the appropriate permissions for each individual",
+        "Score": 0.00013822085747960955,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the command to invoke MATLAB?",
+        "Answer Given": "setfacl",
+        "Score": 0.3823546767234802,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the standard way to submit a Slurm job?",
+        "Answer Given": "setfacl command",
+        "Score": 0.0003276954812463373,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How do I submit a Slurm job?",
+        "Answer Given": "you must remove access for the whole group",
+        "Score": 3.0881372367730364e-05,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How is using login nodes for MATLAB jobs system abuse?",
+        "Answer Given": "Explore the man pages for more details on all the available options",
+        "Score": 9.507285767540452e-07,
+        "Actual Answer": "it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    }
+]

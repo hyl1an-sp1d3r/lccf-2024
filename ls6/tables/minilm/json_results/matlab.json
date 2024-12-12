@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What can TACC users use MATLAB for?",
+        "Answer Given": "non-commercial, academic use",
+        "Score": 0.7581408023834229,
+        "Actual Answer": "only for non-commercial, academic purposes"
+    },
+    {
+        "Question": "How do I load MATLAB?",
+        "Answer Given": "nodesktop -nodisplay -nosplash",
+        "Score": 0.0893816128373146,
+        "Actual Answer": "module load matlab"
+    },
+    {
+        "Question": "Should I launch MATLAB jobs on login nodes?",
+        "Answer Given": "Do NOT launch MATLAB on the login nodes",
+        "Score": 0.2763732969760895,
+        "Actual Answer": "Do NOT launch MATLAB on the login nodes"
+    },
+    {
+        "Question": "Where can I submit my MATLAB jobs?",
+        "Answer Given": "Slurm scheduler",
+        "Score": 0.5549696087837219,
+        "Actual Answer": "on the TACC resources, e.g. Frontera, Stampede3, or Lonestar6"
+    },
+    {
+        "Question": "Why can I not use MATLAB on login nodes?",
+        "Answer Given": "system abuse",
+        "Score": 0.1174907237291336,
+        "Actual Answer": "This may fail and, more importantly, it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    },
+    {
+        "Question": "How do I invoke MATLAB?",
+        "Answer Given": "interactive mode",
+        "Score": 0.027033083140850067,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the command to invoke MATLAB?",
+        "Answer Given": "c202-002",
+        "Score": 0.2468232363462448,
+        "Actual Answer": "matlab"
+    },
+    {
+        "Question": "What is the standard way to submit a Slurm job?",
+        "Answer Given": "Slurm scheduler",
+        "Score": 0.025810295715928078,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How do I submit a Slurm job?",
+        "Answer Given": "in the standard way",
+        "Score": 0.04960215836763382,
+        "Actual Answer": "sbatch myjobscript"
+    },
+    {
+        "Question": "How is using login nodes for MATLAB jobs system abuse?",
+        "Answer Given": "licensing issues",
+        "Score": 0.04383828490972519,
+        "Actual Answer": "it will prevent other users from doing their work, as your execution will take up too many cycles on the shared login node"
+    }
+]

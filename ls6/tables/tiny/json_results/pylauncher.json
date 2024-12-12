@@ -1,0 +1,62 @@
+[
+    {
+        "Question": "What is Pylauncher?",
+        "Answer Given": "a Python-based parametric job launcher",
+        "Score": 0.5151892900466919,
+        "Actual Answer": "a Python-based parametric job launcher, a utility for distributing and executing many small jobs in parallel"
+    },
+    {
+        "Question": "How do you load Pylauncher?",
+        "Answer Given": "cmd-line\n$ module",
+        "Score": 0.13138779997825623,
+        "Actual Answer": "module load pylauncher"
+    },
+    {
+        "Question": "What command installs Pylauncher?",
+        "Answer Given": "IbrunLauncher",
+        "Score": 0.37248045206069946,
+        "Actual Answer": "module load pylauncher"
+    },
+    {
+        "Question": "What does Pylauncher do in an idev session?",
+        "Answer Given": "creates a working directory with a name based on the SLURM job number",
+        "Score": 0.661323070526123,
+        "Actual Answer": "creates a working directory with a name based on the SLURM job number"
+    },
+    {
+        "Question": "Where is Pylauncher available on TACC?",
+        "Answer Given": "all TACC systems",
+        "Score": 0.6059994101524353,
+        "Actual Answer": "on all TACC systems via the [Lmod modules system][TACCLMOD]"
+    },
+    {
+        "Question": "What is the procees to invoke Pylauncher?",
+        "Answer Given": "ClassicLauncher(commandlines",
+        "Score": 0.006316874176263809,
+        "Actual Answer": "#SBATCH -N 5 # number of nodes you want to use"
+    },
+    {
+        "Question": "How many nodes will I need to use?",
+        "Answer Given": "100 cores",
+        "Score": 0.37285614013671875,
+        "Actual Answer": "depends on how much work you have"
+    },
+    {
+        "Question": "What are the names of the environment variables?",
+        "Answer Given": "TACC_PYLAUNCHER_DIR and PYTHONPATH",
+        "Score": 0.5848801136016846,
+        "Actual Answer": "TACC_PYLAUNCHER_DIR and PYTHONPATH"
+    },
+    {
+        "Question": "How can I give each commandline more than one core for a multi-threaded program?",
+        "Answer Given": "job-script\nlauncher",
+        "Score": 0.5949954390525818,
+        "Actual Answer": "launcher.ClassicLauncher(commandlines,cores4)"
+    },
+    {
+        "Question": "How much time does it take for the system to output a tick message",
+        "Answer Given": "every half second",
+        "Score": 0.8913986682891846,
+        "Actual Answer": "every half second"
+    }
+]
